@@ -95,7 +95,7 @@ export default function Home() {
       {/* NAVIGATION */}
       <header className="site-header">
         <a href="#home" className="logo">
-          Afsar<span>.</span>
+          Shajir Sha<span>.</span>
         </a>
 
         <button
@@ -178,7 +178,7 @@ export default function Home() {
 
           <div className="campaign-board">
             <div className="board-header">
-              <span>AFSAR / CAMPAIGN NOTES</span>
+              <span>Shajir Sha / CAMPAIGN NOTES</span>
               <span>VOL. 01</span>
             </div>
 
@@ -510,7 +510,7 @@ export default function Home() {
       {/* ABOUT */}
       <section id="about" className="section about-section">
         <div className="about-heading">
-          <span className="section-number">06 / ABOUT AFSAR</span>
+          <span className="section-number">06 / ABOUT Shajir Sha</span>
           <h2>
             Strategy on paper,
             <br />
@@ -523,7 +523,7 @@ export default function Home() {
             <div className="note-mark">✦</div>
 
             <p>
-              I&apos;m Afsar, a Meta Ads Specialist interested in the space
+              I&apos;m Shajir Sha, a Meta Ads Specialist interested in the space
               where advertising, creative thinking and digital products meet.
             </p>
 
@@ -533,7 +533,7 @@ export default function Home() {
               test next?
             </p>
 
-            <strong>— Afsar</strong>
+            <strong>— Shajir Sha</strong>
           </div>
 
           <div className="about-copy">
@@ -593,7 +593,7 @@ export default function Home() {
       <footer className="footer">
         <div>
           <strong>
-            Afsar<span>.</span>
+            Shajir Sha<span>.</span>
           </strong>
           <p>Meta Ads Specialist · 2026</p>
         </div>
