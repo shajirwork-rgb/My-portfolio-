@@ -354,9 +354,9 @@ export default function Home() {
           <div className="concept-label">
             <span>PORTFOLIO NOTE</span>
             <p>
-              These are fictional concept projects created to demonstrate
-              strategy and campaign thinking.
-            </p>
+  A collection of campaign concepts built around strategy,
+  creative testing, audience thinking, and performance-focused advertising.
+</p>
           </div>
         </div>
 
