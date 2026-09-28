@@ -141,12 +141,11 @@ export default function Home() {
 
           <p className="hero-kicker">META ADS SPECIALIST / PERFORMANCE MARKETING</p>
 
-          <h1>
-            I turn
-            <br />
-            <em>attention</em>
-            into action.
-          </h1>
+          <h1 className="hero-title">
+  I turn<br />
+  <span className="hero-emphasis">attention</span><br />
+  into action.
+</h1>
 
           <p className="hero-description">
             I help brands plan, launch and refine advertising campaigns across

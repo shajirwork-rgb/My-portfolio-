@@ -1624,3 +1624,42 @@ button {
     justify-self: start;
   }
 }
+
+/* Hero heading redesign */
+.hero-title {
+  line-height: 0.92;
+  letter-spacing: -0.055em;
+}
+
+.hero-emphasis {
+  position: relative;
+  display: inline-block;
+  font-style: italic;
+  transform: rotate(-2deg);
+  padding: 0 0.04em;
+}
+
+.hero-emphasis::after {
+  content: "";
+  position: absolute;
+  left: -0.03em;
+  right: -0.03em;
+  bottom: 0.02em;
+  height: 0.09em;
+  background: var(--ink);
+  opacity: 0.55;
+  transform: rotate(-1deg);
+  z-index: -1;
+}
+
+@media (max-width: 600px) {
+  .hero-title {
+    font-size: clamp(3.5rem, 17vw, 6rem);
+    line-height: 0.9;
+    letter-spacing: -0.06em;
+  }
+
+  .hero-emphasis {
+    transform: rotate(-2deg);
+  }
+}
